@@ -1,0 +1,30 @@
+:root{
+    --black: #000000; 
+    --white: #f0f0f0;
+    --cadetBlue: #61A0AF;
+    --darkSkyBlue: #96C9DC;
+    --cyclamen: #F06C9B;
+    --spanishPink: #F9B9B7;
+    --deepChampagne: #F5D491;
+}
+/*--------------------------------------- Generales ---------------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background: linear-gradient(180deg, var(--cadetBlue) 12%, var(--darkSkyBlue) 62%);
+    font-family: 'Mate SC', 'Shadows Into Light', Impact, sans-serif, cursive;
+    min-height: 100vh;
+}
+/*--------------------------------------- Text, padding, margin, color, background ---------------------------------------------*/
+.bg-deepChamp {
+    background-color: var(--deepChampagne);
+}
+.btn-cyclamen {
+    background-color: var(--cyclamen) !important;
+}
